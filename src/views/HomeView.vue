@@ -63,7 +63,7 @@ const messageClasses = computed(() => {
   position: relative;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: var(--tg-viewport-stable-height);
   /* overflow: hidden; */
   /* gap: 20px; */
 }

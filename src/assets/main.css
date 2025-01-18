@@ -1,7 +1,12 @@
 @import './base.css';
 
+body {
+  /* font-family: 'Roboto', sans-serif; */
+  height: var(--tg-viewport-stable-height);
+}
+
 #app {
-  height: 100%;
+  height: var(--tg-viewport-stable-height);
   padding: 10px 16px;
   overflow: hidden;
 }
